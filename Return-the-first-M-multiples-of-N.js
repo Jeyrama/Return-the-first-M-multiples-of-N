@@ -7,3 +7,6 @@ multiples(3, 5.0)
 should return
 [5.0, 10.0, 15.0]
 */
+
+
+// Solution
