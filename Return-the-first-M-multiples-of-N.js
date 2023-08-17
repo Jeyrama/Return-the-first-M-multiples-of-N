@@ -11,11 +11,16 @@ should return
 
 // Solution
 
-function multiples(m, n){
-  var arr=[];
-  for (var i=1; i<=m; ++i)
+function multiples(m, n) {
+  let arr = [];
+  for (let i = 1; i <=m; ++i) {
     arr.push(n*i);
+  }
   return arr;
-} 
+}
 
 // or
+
+function multiples(m, n) {
+  return Array.from(Array(m), (_v, i) => (i + 1) * n);
+}
